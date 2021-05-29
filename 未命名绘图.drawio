@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T02:40:49.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.13" etag="1k5joeG6J1I2dwMR6VTF" type="github"><diagram id="_O6-oCjtim-zpr7nSIYI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-29T02:46:55.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="nvkCogp9g9fkuGi4_K0W" version="14.6.13" type="github">
+  <diagram id="_O6-oCjtim-zpr7nSIYI" name="第 1 页">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-1" value="zk进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-8" value="请求1&lt;br&gt;请求2&lt;br&gt;原子性" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SDBgByifGxUQ3HHhdB2M-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="180" />
+              <mxPoint x="300" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-9" value="请求1&lt;br&gt;请求2&lt;br&gt;原子性" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SDBgByifGxUQ3HHhdB2M-2" target="SDBgByifGxUQ3HHhdB2M-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-2" value="zk进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-11" value="读取数据&lt;br&gt;数据一致性&lt;br&gt;实时性" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SDBgByifGxUQ3HHhdB2M-3" target="SDBgByifGxUQ3HHhdB2M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-3" value="zk进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SDBgByifGxUQ3HHhdB2M-4" target="SDBgByifGxUQ3HHhdB2M-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-7" value="请求1&lt;br&gt;请求2&lt;br&gt;请求3&lt;br&gt;顺序一致性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SDBgByifGxUQ3HHhdB2M-5">
+          <mxGeometry x="0.1364" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-4" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-10" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDBgByifGxUQ3HHhdB2M-12" value="集群化部署&lt;br&gt;高可用性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369" y="70" width="74" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
